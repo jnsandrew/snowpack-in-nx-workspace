@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "projects": {
+    "example-app": {
+      "root": "apps/example-app",
+      "sourceRoot": "apps/example-app/src",
+      "projectType": "application",
+      "targets": {
+        "serve": {
+          "executor": "@andrewjones/nx-snowpack:dev",
+          "options": {
+            "snowpackConfig": "apps/example-app/snowpack.config.js"
+          }
+        },
+        "build": {
+          "executor": "@andrewjones/nx-snowpack:build",
+          "options": {
+            "snowpackConfig": "apps/example-app/snowpack.config.js"
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "apps/example-app/**/*.{ts,tsx,js,jsx}"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/apps/example-app"
+          ],
+          "options": {
+            "jestConfig": "apps/example-app/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/react"
+  },
+  "generators": {
+    "@nrwl/react": {
+      "application": {
+        "style": "css",
+        "linter": "eslint",
+        "strict": true,
+        "babel": true
+      },
+      "component": {
+        "style": "css"
+      },
+      "library": {
+        "style": "css",
+        "linter": "eslint",
+        "strict": true
+      }
+    }
+  },
+  "defaultProject": "example-app"
+}

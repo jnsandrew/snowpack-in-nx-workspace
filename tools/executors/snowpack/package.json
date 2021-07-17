@@ -1,0 +1,11 @@
+{
+    "name": "@andrewjones/nx-snowpack",
+    "devDependencies": {
+        "snowpack": "^3.3.7"
+    },
+    "peerDependencies": {
+        "@nrwl/cli": "12.5.0",
+        "@nrwl/workspace": "12.5.0"
+    },
+    "builders": "./builder.json"
+}

@@ -1,0 +1,14 @@
+{
+    "builders": {
+        "dev": {
+            "implementation": "./dev.impl.ts",
+            "schema": "./schema.json",
+            "description": "Runs Snowpack dev server"
+        },
+        "build": {
+            "implementation": "./build.impl.ts",
+            "schema": "./schema.json",
+            "description": "Builds the target with Snowpack"
+        }
+    }
+}

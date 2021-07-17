@@ -1,0 +1,5 @@
+.pnpm-store
+.devcontainer
+node_modules
+.vscode
+/build

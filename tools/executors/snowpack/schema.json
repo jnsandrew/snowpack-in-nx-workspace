@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "type": "object",
+    "cli": "nx",
+    "properties": {
+        "noCache": {
+            "type": "boolean",
+            "description": "Clear the Snowpack cache before running?"
+        }
+    }
+}
