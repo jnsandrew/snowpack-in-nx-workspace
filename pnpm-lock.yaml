@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@andrewjones/nx-snowpack': '*'
+      '@jnsandrew/nx-snowpack': '*'
       '@nrwl/cli': 12.5.0
       '@nrwl/eslint-plugin-nx': 12.5.0
       '@nrwl/jest': 12.5.0
@@ -37,7 +37,7 @@ importers:
       core-js: 3.15.2
       regenerator-runtime: 0.13.7
     devDependencies:
-      '@andrewjones/nx-snowpack': link:tools/executors/snowpack
+      '@jnsandrew/nx-snowpack': link:tools/executors/snowpack
       '@nrwl/cli': 12.5.0
       '@nrwl/eslint-plugin-nx': 12.5.0_33b59c67e278b93325d5f3dc4d14ee39
       '@nrwl/jest': 12.5.0

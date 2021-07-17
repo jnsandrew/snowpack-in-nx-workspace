@@ -1,5 +1,5 @@
 {
-  "name": "@andrewjones/snowpack-in-nx-workspace",
+  "name": "@jnsandrew/snowpack-in-nx-workspace",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -31,7 +31,7 @@
     "regenerator-runtime": "0.13.7"
   },
   "devDependencies": {
-    "@andrewjones/nx-snowpack": "*",
+    "@jnsandrew/nx-snowpack": "*",
     "@nrwl/cli": "12.5.0",
     "@nrwl/eslint-plugin-nx": "12.5.0",
     "@nrwl/jest": "12.5.0",

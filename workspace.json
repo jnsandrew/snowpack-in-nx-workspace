@@ -7,13 +7,13 @@
       "projectType": "application",
       "targets": {
         "serve": {
-          "executor": "@andrewjones/nx-snowpack:dev",
+          "executor": "@jnsandrew/nx-snowpack:dev",
           "options": {
             "snowpackConfig": "apps/example-app/snowpack.config.js"
           }
         },
         "build": {
-          "executor": "@andrewjones/nx-snowpack:build",
+          "executor": "@jnsandrew/nx-snowpack:build",
           "options": {
             "snowpackConfig": "apps/example-app/snowpack.config.js"
           }

@@ -1,5 +1,5 @@
 {
-    "name": "@andrewjones/nx-snowpack",
+    "name": "@jnsandrew/nx-snowpack",
     "devDependencies": {
         "snowpack": "^3.3.7"
     },

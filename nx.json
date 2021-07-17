@@ -1,5 +1,5 @@
 {
-  "npmScope": "@andrewjones/snowpack-in-nx-workspace",
+  "npmScope": "@jnsandrew/snowpack-in-nx-workspace",
   "affected": {
     "defaultBase": "master"
   },
